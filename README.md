@@ -1,6 +1,6 @@
-# huohuo_personal_web
+# vue-mintUI-mobile
 
-> huohuo_personal_web
+> vue-mintUI-mobile
 
 ## Build Setup
 
