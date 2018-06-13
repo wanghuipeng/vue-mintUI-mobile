@@ -10,10 +10,13 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 // 引入设置的store
 import store from './store'
+// 引入faskclick库，解决移动端300s延迟问题
+import fastClick from 'fastclick'
 
 Vue.config.productionTip = false
 
 Vue.use(MintUI)
+fastClick.attach(document.body)
 
 import axios from "./assets/js/api";
 Vue.prototype.$ajax = axios;
